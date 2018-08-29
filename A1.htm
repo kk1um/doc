@@ -1,0 +1,293 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<script language="javascript" type="text/javascript" src="js/datetimepicker.js">
+</script>
+<script language="javascript" type="text/javascript" >
+function handlerUsername(strA){
+	var x = getid(strA);
+	if(x==1){
+		formA1.username.value="jkp";
+	}else if(x == 2){
+		formA1.username.value="jkpkemas";
+	}
+	else if(x == 3){
+		formA1.username.value="jkpkep";
+	}
+	else if(x == 4){
+		formA1.username.value="jkpseni";
+	}
+	else if(x == 5){
+		formA1.username.value="jkpsukan";
+	}
+	else if(x == 6){
+		formA1.username.value="masterkk1um";
+	}
+	else if(x == 7){
+		formA1.username.value="dmumkk1";
+	}
+      else if(x == 8){
+		formA1.username.value="setiausahakk1";  
+	}
+	formA1.formsubject.value = "("+formA1.T1.value+")"+"Borang A1 - " + formA1.JKP.value + " - " + formA1.Tujuan.value;
+}
+
+function updateSubject(){
+	formA1.formsubject.value = "("+formA1.T1.value+")"+"Borang A1 - " + formA1.JKP.value + " - " + formA1.Tujuan.value;
+}
+
+function getid(strA){
+	x=-1;
+	for(i=0; i<vlines.length;i++){
+		sublines = vlines[i].split(", ");
+		if(sublines[0]==strA){
+			x=sublines[1];
+			break;
+		}
+	}
+	return x;
+}
+</script>
+
+<title>ASTAR</title>
+</head>
+
+<body bgcolor="#CCCCCC">
+
+<div align="center">
+  <center>
+  <table border="1" width="900" cellpadding="10" style="border: 2 dotted #000080; padding: 0" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%"><font FACE="Myriad Pro,Myriad Pro" SIZE="3">
+<p>&nbsp;</p>
+</font>
+
+        	<form name=formA1 action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+			<input type="hidden" name="username" value="jkp">
+			<input type="hidden" value="1,,3,4,5,6,7,8,9,10,12,32,33" name="reqd">
+			<input type="hidden" value="http://kk1.um.edu.my/confirme.htm" name="url">
+			<input type="hidden" name="formsubject" value="Borang A1"> 
+<input type="hidden" name="i =________________________________________________________" value=" i"> 
+        <p><div align="center">
+  <table border="0" width="900">
+    <tr>
+      <td width="100%">
+        <p align="right"><b><font SIZE="2" face="Arial">ASTAR_A1</font></b></p>
+        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+          </tr>
+        </table>
+        <table border="0" width="100%" cellspacing="10" cellpadding="0" height="310">
+          <tr>
+            <td width="100%" colspan="4" height="24">
+              <p align="center"><b><font face="Arial" size="4">KOLEJ
+              KEDIAMAN PERTAMA</font></b></td>
+          </tr>
+          <tr>
+            <td width="100%" colspan="4" height="21"></td>
+          </tr>
+          <tr>
+            <td width="100%" colspan="4" height="24">
+              <p align="center"><b><font face="Arial" size="4">PERMOHONAN
+              MENGGUNAKAN KEMUDAHAN DAN PERALATAN</font></b></td>
+          </tr>
+          <tr>
+            <td width="100%" colspan="4" height="21"></td>
+          </tr>
+          <tr>
+            <td width="13%" align="right" height="25"><font face="Arial" size="2">Nama:</font></td>
+            <td width="37%" height="25"><input type="text" name="Nama" size="50" tabindex="1"></td>
+            <td width="16%" align="right" height="25"><font face="Arial" size="2">No.
+              bilik:</font></td>
+            <td width="34%" height="25"><input type="text" name="No_Bilik" size="20" tabindex="2"></td>
+          </tr>
+          <tr>
+            <td width="13%" align="right" height="25"><font face="Arial" size="2">Tarikh
+              guna :</font></td>
+            <td width="37%" height="25"><input id=tarikh1 type="text" name="Tarikh_Guna" size="20" tabindex="3">
+<a href="javascript:NewCal('tarikh1','ddmmmyyyy',false,24)"><img src="images/cal.gif" width="16" height="16" border="0" alt="Pilik Tarikh"></a>
+
+</td>
+            <td width="16%" align="right" height="25"><font face="Arial" size="2">Masa:</font></td>
+            <td width="34%" height="25"><input type="text" name="Masa" size="20" tabindex="4"></td>
+          </tr>
+          <tr>
+            <td width="13%" align="right" height="34"><font face="Arial" size="2">No. tel.
+              bimbit:</font></td>
+            <td width="37%" height="34"><input type="text" name="HP" size="20" tabindex="5"></td>
+            <td width="16%" align="right" height="34"><font face="Arial" size="2">JKP
+              / Kelab / Projek <b>:</b></font></td>
+            <td width="34%" height="34"> <!-- <input type="text" name="JKP" size="20" tabindex="6"> -->
+		<select name="JKP" size="1" tabindex="6" onChange="handlerUsername(formA1.JKP.value)"> 
+		<script type="text/javascript">
+		var oRequest = new XMLHttpRequest();
+		var sURL  = "list/jkplist.txt";
+
+		oRequest.open("GET",sURL,false);
+		oRequest.setRequestHeader("User-Agent",navigator.userAgent);
+		oRequest.send(null)
+
+		if (oRequest.status==200) {
+   			vlines=oRequest.responseText.split("\n");
+   			for(i=0;i<vlines.length; i++){
+				sublines = vlines[i].split(", ");
+   				document.write("<option value='"+sublines[0]+"'>"+sublines[0]+"</option>");
+			}
+		}
+		else alert("Error executing XMLHttpRequest call!");
+		</script>
+</select>
+</td>
+          </tr>
+<tr>
+<td width="13%" height="25">
+              <p align="right"><font face="Arial" size="2">Email:&nbsp;</font></td>
+<td><input type="text" name="e-mail" size="50"></td>
+</tr>
+          <tr>
+            <td width="13%" height="25">
+              <p align="right"><font face="Arial" size="2">Tujuan:&nbsp;</font></td>
+            <td width="87%" colspan="3" height="25"><input type="text" name="Tujuan" size="100" tabindex="7" onchange="updateSubject()"></td>
+          </tr>
+          <tr>
+            <td width="13%" height="21"></td>
+            <td width="37%" height="21"></td>
+            <td width="16%" height="21"></td>
+            <td width="34%" height="21"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <center>
+  <table border="0" width="900">
+    <tr>
+      <td width="36" align="center"><b><font face="Arial" size="2">Bil</font></b>
+      </td>
+      <td width="402"><b><font face="Arial" size="2">Kemudahan /Peralatan</font></b>
+      </td>
+      <td width="63" align="center"><b><font face="Arial" size="2">Kuantiti</font></b>
+      </td>
+      <td width="373" align="center"><b><font face="Arial" size="2">Catatan</font></b>
+      </td>
+    </tr>
+    <tr>
+<input type="hidden" name="1 =________________________________________________________" value=" 1"> 
+      <td width="36" align="center"><font face="Arial" size="2">1</font></td>
+      <td width="402"><input type="text" name="Kemudahan_1" size="50" tabindex="8"></td>
+      <td width="63" align="center"><select size="1" name="Kuantiti_1" tabindex="9">
+      <script type="text/javascript">
+         for(i=0; i<100;i++)
+           document.write("<option value="+i+">"+i+"</option>");
+      </script>
+          
+      </select></td>
+      <td width="373"><input type="text" name="Catatan_1" size="50" tabindex="10"></td>
+    </tr>
+    <tr>
+<input type="hidden" name="2 =________________________________________________________" value=" 2">
+      <td width="36" align="center"><font face="Arial" size="2">2</font></td>
+      <td width="402"><input type="text" name="Kemudahan_2" size="50" tabindex="11"></td>
+      <td width="63" align="center"><select size="1" name="Kuantiti_2" tabindex="12">
+         <script type="text/javascript">
+         for(i=0; i<100;i++)
+           document.write("<option value="+i+">"+i+"</option>");
+      </script>
+
+        </select></td>
+      <td width="373"><input type="text" name="Catatan_2" size="50" tabindex="13"></td>
+    </tr>
+    <tr>
+<input type="hidden" name="3 =________________________________________________________" value=" 3">
+      <td width="36" align="center"><font face="Arial" size="2">3</font></td>
+      <td width="402"><input type="text" name="Kemudahan_3" size="50" tabindex="14"></td>
+      <td width="63" align="center"><select size="1" name="Kuantiti_3" tabindex="15">
+        <script type="text/javascript">
+         for(i=0; i<100;i++)
+           document.write("<option value="+i+">"+i+"</option>");
+      </script>
+
+        </select></td>
+      <td width="373"><input type="text" name="Catatan_3" size="50" tabindex="16"></td>
+    </tr>
+    <tr>
+<input type="hidden" name="4 =________________________________________________________" value=" 4">
+      <td width="36" align="center"><font face="Arial" size="2">4</font></td>
+      <td width="402"><input type="text" name="Kemudahan_4" size="50" tabindex="17"></td>
+      <td width="63" align="center"><select size="1" name="Kuantiti_4" tabindex="18">
+         <script type="text/javascript">
+         for(i=0; i<100;i++)
+           document.write("<option value="+i+">"+i+"</option>");
+      </script>
+
+        </select></td>
+      <td width="373"><input type="text" name="Catatan_4" size="50" tabindex="19"></td>
+    </tr>
+    <tr>
+<input type="hidden" name="5 =________________________________________________________" value=" 5">
+      <td width="36" align="center"><font face="Arial" size="2">5</font></td>
+      <td width="402"><input type="text" name="Kemudahan_5" size="50" tabindex="20"></td>
+      <td width="63" align="center"><select size="1" name="Kuantiti_5" tabindex="21">
+         <script type="text/javascript">
+         for(i=0; i<100;i++)
+           document.write("<option value="+i+">"+i+"</option>");
+      </script>
+
+        </select></td>
+      <td width="373"><input type="text" name="Catatan_5" size="50" tabindex="22"></td>
+    </tr>
+  </table>
+  </center>
+  </center>
+    <div align="center">
+<input type="hidden" name="i =________________________________________________________" value=" i">
+  <table border="0" width="100%">
+  <tr>
+    <td width="20%" valign="top">
+      <p align="right"><input type="checkbox" name="Akuan_Tanggungjawab" value="ON" checked></td>
+  <center>
+      <center>
+    <td width="80%" valign="top"><i>
+<p><font face="Arial" size="2"> Saya berjanji akan bertanggungjawab dalam mengguna serta menjaga dengan
+sebaik mungkin peralatan yang diambil dan akan mengembalikan peralatan berkenaan
+dalam tempoh yangditetapkan.</font></p>
+      </i>
+<p><font face="Arial" size="2">Tarikh: <input type="text" name="T1" size="20"></font>
+
+<script type="text/javascript">
+var currentTime = new Date();
+var month = currentTime.getMonth() + 1;
+var day = currentTime.getDate();
+var year = currentTime.getFullYear();
+//document.write(day + "/" + month + "/" + year);
+formA1.T1.value= day + "/" + month + "/" + year;
+</script>
+</p>
+<p align="center"><i><font face="Arial" size="2" color="#FF0000"><u>Ini adalah cetakan komputer, tandatangan tidak diperlukan</u></font></i></p>
+      <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="2">&nbsp;<font FACE="Myriad Pro,Myriad Pro" SIZE="3"><input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2">
+</font></td>
+  </tr>
+</table>
+      </center>
+    </div>
+  </center>
+  </table>
+</div>
+<input type="hidden" name="i =________________________________________________________" value=" i">
+<input type="hidden" name="remarks" value="Process">
+</form>
+    </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>
