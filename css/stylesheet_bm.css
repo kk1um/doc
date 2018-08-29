@@ -1,0 +1,149 @@
+/* DO NOT CHANGE ANY OF THESE */
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: #bf2241;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #bf2241;
+}
+a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+a:active {
+	text-decoration: none;
+	color: #bf2241;
+}
+#header {
+	background-image:url(../images/header_bm.jpg);
+	background-repeat: no-repeat;
+}
+.header1 {
+background:url(../images/headerimage.jpg) no-repeat bottom right;
+}
+
+.header2 {
+background:url(../images/headerimage.jpg) no-repeat bottom right;
+}
+#closewin a{
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#closewin a:hover{
+	text-decoration:underline;
+}
+.footer {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: right;
+}
+.footer2 {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+}
+
+.navigationtext {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.navigationtext2 {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	padding-left: 19px;
+}
+#closewin2 a{
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #4d4d4d;
+	font-weight: bold;
+	text-decoration: none;
+}
+#closewin2 a{
+	text-decoration: underline;
+}
+
+
+/* YOU CAN CHANGE THESE IF YOU KNOW HOW TO */
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #bf2241;
+}
+#template01 {
+	width: 872px;
+	max-width: 872px; !important
+	padding-left: 11px;
+	overflow: hidden;
+}
+#template01 p {
+	font-size: 11px;
+}
+#template01 span {
+	font-size: 11px;
+}
+#template02 {
+	width: 660px;
+	max-width: 660px; !important
+	padding-left: 7px;
+}
+#template02 p {
+	font-size: 11px;
+}
+#template02 span {
+	font-size: 11px;
+}
+#template03 {
+	width: 640px;
+	max-width: 640px; !important
+	padding-left: 11px;
+
+}
+#template03 p {
+	font-size: 11px;
+}
+#template03 span {
+	font-size: 11px;
+}
+#facultyname {
+	float: left;
+	z-index: 5;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding-left: 230px;
+	font-weight: bold;
+}
