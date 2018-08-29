@@ -1,0 +1,34 @@
+-
+JKP ADI, 1
+JKP KEMAS, 2
+JKP KEP, 3
+JKP SENI, 4
+JKP SUKAN, 5
+Pengurusan Kolej, 6
+Setiausaha Kolej, 8
+Minggu Haluansiswa (MHS), 8
+Minggu Mesra Pelajar (MMP), 1
+Gerai Konvo ASTAR (GKA), 4
+Fiesta Hari Terbuka (FHT), 3
+Kempen Derma Darah (KKD), 2
+Malam Penganugerahan ASTAR (MPA), 5
+Makan Malam Pelajar Tahun Akhir, 8
+Bengkel Pelajar Tahun Akhir, 5
+Kelab Teknikal, 1
+Kelab Penyokong, 4
+Sidang Redaksi, 4
+Debat Terbuka Astar (DTA), 1
+ASTAR Scrabble Challenge International (ASCI), 1
+Sukan Mahasiswa Universiti Malaya (SUKMUM), 5
+HIJAU, 5
+Interaksi Mahasiswa, 3
+Pesta Budaya, 3
+Pesta Kebudayaan Tiong Hua, 3
+Kursus Pra Perkahwinan, 3
+Kempen Pencegahan Kebakaran, 2
+Astar Caring Day (ACD), 2
+Kempen Pencegahan Kebakaran, 2
+Operasi Khidmat Masyarakat (OPKIM), 2
+Festival Seni (FESENI), 4
+Kelab Lakon ASTAR (KELAKAR), 4
+Musolla Astar, 8

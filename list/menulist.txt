@@ -1,0 +1,46 @@
+-
+Nasi Putih, 0.30
+Minuman Panas o, 0.30
+Nasi Special, 0.50
+Minuman Panas Bersusu, 0.50
+Ayam, 1.70
+Minuman Sejuk, 0.30
+Lauk Ikan Biasa, 1.30 	
+Air Minuman, 0.50
+Lauk Udang, 3.00 	
+Minuman Special, 0.80
+Udang Goreng Tepong, 3.50 	
+Buah Tempatan, 0.30
+Lauk Sotong, 2.00 	
+Buah Special/ biji, 0.40
+Sotong Goreng Tepong, 2.50 	
+Manisan/ Dessert, 1.00 - 2.00
+Lauk Daging, 1.50 	
+Kuih Special, 0.50
+Telor, 0.50 	
+Kuih Melayu Biasa, 0.30
+Sayuran Biasa, 0.40 	
+Sandwich Telor, 0.70
+Sayuran Special, 0.60 	
+Sandwich sardin, 0.80
+Ulam & Sambal Belacan, 0.30 	
+Sandwich Tuna, 1.00
+Set Nasi Lemak Biasa, 2.00 	
+Set Sosaj, 1.00
+Nasi Paprik Ayam, 2.50
+Sosaj Kosong, 0.50
+Nasi Paprik Daging Kambing, 2.50
+Set Burger, 1.20
+Nasi Paprik Daging Lembu, 2.00
+Nugget - 4 keping, 2.00
+Mi/mihun/kuitiaw Biasa, 1.50
+Fries, 1.00
+Mi/mihun/kuitiaw Special, 2.00
+Mushroom Soup, 1.50
+Macaroni Goreng, 2.50
+Garlic Bread - 3 Keping, 2.00
+Spaghetti Bolognaise, 4.00
+Set Roti Jala - 3 Keping dan Kari Ayam, 3.00
+Set Lontong - nasi empit, kuah kacang & lodeh/ serunding kelapa, 2.50
+Set Chicken Chop - ayam grille, fries & coleslaw/ sayuran, 6.00
+Set Nasi Ayam - nasi ayam, ayam goreng, sup dan sayuran, 3.00
