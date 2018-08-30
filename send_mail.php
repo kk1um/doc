@@ -23,30 +23,30 @@ $first_name = $_REQUEST['first_name'] ;
 $msg =
 "First Name: " . $first_name . "\r\n" .
 "Email: " . $email_address . "\r\n" .
-"No Bilik" . $No_Bilik . "\r\n" .
-"Tarikh_Guna" .$Tarikh_Guna . "\r\n" .
+"No Bilik" . $No_Bilik .
+"Tarikh_Guna" .$Tarikh_Guna . 
 "Masa" .$Masa . "\r\n" .
 "HP" .$HP . "\r\n" .
 "JKP" .$JKP . "\r\n" .
 "Tujuan" .$Tujuan . "\r\n" .
-"Kemudahan 1" .$Kemudahan_1 . "\r\n" .
-"Kuantiti 1: " . $Kuantiti_1 . "\r\n" .
-"Catatan 1: " . $Catatan_1 . "\r\n" .
+"Kemudahan 1" .$Kemudahan_1 . 
+"Kuantiti 1: " . $Kuantiti_1 . 
+"Catatan 1: " . $Catatan_1 . 
 
-"Kemudahan 2" .$Kemudahan_2 . "\r\n" .
-"Kuantiti 2" . $Kuantiti_2 . "\r\n" .
-"Catatan 2" . $Catatan_2 . "\r\n" .
+"Kemudahan 2" .$Kemudahan_2 . 
+"Kuantiti 2" . $Kuantiti_2 . 
+"Catatan 2" . $Catatan_2 . 
 
-"Kemudahan 3" .$Kemudahan_3 . "\r\n" .
-"Kuantiti 3" . $Kuantiti_3 . "\r\n" .
-"Catatan 3" . $Catatan_3 . "\r\n" .
+"Kemudahan 3" .$Kemudahan_3 . 
+"Kuantiti 3" . $Kuantiti_3 . 
+"Catatan 3" . $Catatan_3 . 
 
-"Kemudahan 4" .$Kemudahan_4 . "\r\n" .
-"Kuantiti 4" . $Kuantiti_4 . "\r\n" .
-"Catatan 4" . $Catatan_4 . "\r\n" .
+"Kemudahan 4" .$Kemudahan_4 . 
+"Kuantiti 4" . $Kuantiti_4 . 
+"Catatan 4" . $Catatan_4 . 
 
-"Kemudahan 5" .$Kemudahan_5 . "\r\n" .
-"Kuantiti 5" . $Kuantiti_5 . "\r\n" .
+"Kemudahan 5" .$Kemudahan_5 . 
+"Kuantiti 5" . $Kuantiti_5 .
 "Catatan 5" . $Catatan_5 ;
 
 /*
