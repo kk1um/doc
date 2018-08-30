@@ -9,7 +9,7 @@ $webmaster_email = "kk1um@um.edu.my";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "A1.html";
+$A1 = "A1.html";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
 
