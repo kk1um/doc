@@ -25,10 +25,10 @@ $msg =
 "Email: " . $email_address . "\r\n" .
 "No Bilik" . $No_Bilik .
 "Tarikh_Guna" .$Tarikh_Guna . 
-"Masa" .$Masa . "\r\n" .
-"HP" .$HP . "\r\n" .
-"JKP" .$JKP . "\r\n" .
-"Tujuan" .$Tujuan . "\r\n" .
+"Masa" .$Masa . 
+"HP" .$HP . 
+"JKP" .$JKP . 
+"Tujuan" .$Tujuan . 
 "Kemudahan 1" .$Kemudahan_1 . 
 "Kuantiti 1: " . $Kuantiti_1 . 
 "Catatan 1: " . $Catatan_1 . 
