@@ -74,7 +74,7 @@ function isInjected($str) {
 
 // If the user tries to access this script directly, redirect them to the feedback form,
 if (!isset($_REQUEST['email_address'])) {
-header( "Location: $feedback_page" );
+header( "Location: $A1" );
 }
 
 // If the form fields are empty, redirect to the error page.
