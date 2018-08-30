@@ -9,7 +9,7 @@ $webmaster_email = "kk1um@um.edu.my";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$A1 = "A1.html";
+$formA1 = "A1.html";
 $error_page = "error_message.html";
 $thankyou_page = "thank_you.html";
 
@@ -74,7 +74,7 @@ function isInjected($str) {
 
 // If the user tries to access this script directly, redirect them to the feedback form,
 if (!isset($_REQUEST['email_address'])) {
-header( "Location: $A1" );
+header( "Location: $formA1" );
 }
 
 // If the form fields are empty, redirect to the error page.
