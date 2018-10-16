@@ -4,4 +4,3 @@ JKP KEMAS, 2
 JKP KEP, 3
 JKP SENI, 4
 JKP SUKAN, 5
-Pengurusan Kolej, 6
